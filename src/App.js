@@ -1,10 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Header from './components/Header';
+import Home from './components/Home';
+import ProjectPage from './components/ProjectPage';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
+      <ProjectPage />
+      {/* <Projects /> */}
+      {/* <About /> */}
+      {/* <Home /> */}
     </div>
   );
 }
