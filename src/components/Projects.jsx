@@ -4,7 +4,7 @@ import Project from './Project';
 function Projects() {
   const cardsInfo = [
     {
-      card_title: 'My Portfolio Site1',
+      card_title: 'My Portfolio Site',
       card_subTitle: 'HTML, CSS, Bootstrap & JavaScript',
       card_paragraph: `A portfolio website is a unique way to showcase your work
         and let others know about yourself. It's like an evergreen
@@ -25,7 +25,7 @@ function Projects() {
         and improve my knowledge and also I am open to freelance
         opportunities, particularly those involving challenging or
         extensive projects.`,
-      card_image: 'portfolio.png',
+      card_image: 'Lapino.png',
     },
     {
       card_title: 'One Plus',
@@ -37,7 +37,7 @@ function Projects() {
         and improve my knowledge and also I am open to freelance
         opportunities, particularly those involving challenging or
         extensive projects.`,
-      card_image: 'portfolio.png',
+      card_image: 'oneplus.png',
     },
     {
       card_title: 'Todo App',
@@ -49,7 +49,7 @@ function Projects() {
         and improve my knowledge and also I am open to freelance
         opportunities, particularly those involving challenging or
         extensive projects.`,
-      card_image: 'portfolio.png',
+      card_image: 'Lapino.png',
     },
   ];
 
