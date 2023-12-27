@@ -651,11 +651,14 @@ h6 {
 }
 
 .contact .contact-info i {
-  font-size: 48px;
+  font-size: 40px;
   display: inline-block;
   color: #1dbf73;
+  padding-bottom: 8px;
 }
-
+.form_style {
+  margin-bottom: 10px;
+}
 .contact .contact-info address,
 .contact .contact-info p {
   margin-bottom: 0;

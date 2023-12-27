@@ -79,7 +79,7 @@ function Footer() {
                   Let's collaborate and build exceptional user experiences! 🌐
                   🚀
                 </p>
-                <form action="#" method="post">
+                <form>
                   <input type="email" name="email" placeholder="Email" />
                   <input type="submit" value="Let's Connect" />
                 </form>
