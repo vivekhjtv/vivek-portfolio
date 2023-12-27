@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -10,17 +11,17 @@ function Header() {
               <h1 className="bounce-in-top brand-title">vivek.io</h1>
             </div>
             <ul className="nav-menu col-lg-6 col-sm-12">
-              <li className="menu-active">
-                <a href="#">Home</a>
+              <li>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#">Project</a>
+                <Link to="/project">Project</Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>

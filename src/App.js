@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
 import ContactPage from './components/ContactPage';
@@ -10,11 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <ContactPage/>
-      {/* <ProjectPage /> */}
-      {/* <Projects /> */}
-      {/* <About /> */}
-      {/* <Home /> */}
+      <Outlet />
     </div>
   );
 }
