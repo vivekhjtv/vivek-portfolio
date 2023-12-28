@@ -1,5 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
+import { Form, redirect } from 'react-router-dom';
+import { sendDataToApi } from '../api';
 
 function ContactPage() {
   return (
@@ -30,9 +32,7 @@ function ContactPage() {
               <div className="contact-phone">
                 <i className="fas fa-phone"></i>
                 <h3>Phone Number</h3>
-                <p>
-                  <p>+1 437-599-3574</p>
-                </p>
+                <span>+1 437-599-3574</span>
               </div>
             </div>
 
@@ -40,9 +40,10 @@ function ContactPage() {
               <div className="contact-email">
                 <i className="far fa-envelope"></i>
                 <h3>Email</h3>
-                <p>
-                  <p href="mailto:info@example.com">vivekhjtv18@gmail.com</p>
-                </p>
+
+                <span href="mailto:info@example.com">
+                  vivekhjtv18@gmail.com
+                </span>
               </div>
             </div>
           </div>
@@ -55,21 +56,21 @@ function ContactPage() {
                   width="600"
                   height="450"
                   style={{ border: 0 }}
-                  allowfullscreen=""
+                  allowFullScreen
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>
             <div className="col-md-6">
               <div className="form">
-                <form id="myForm" className="contactForm">
+                <Form method="POST" id="myForm" className="contactForm">
                   <div className="form-row row">
                     <div className="form-group col-md-6">
                       <input
                         type="text"
                         id="name"
-                        name="name"
+                        name="fullName"
                         className="form-control form_style"
                         placeholder="Your Name"
                       />
@@ -105,7 +106,7 @@ function ContactPage() {
                   <div>
                     <button type="submit">Send Message</button>
                   </div>
-                </form>
+                </Form>
               </div>
             </div>
           </div>
@@ -114,6 +115,12 @@ function ContactPage() {
       <Footer />
     </div>
   );
+}
+export async function contactInfo(data) {
+  const formData = await data.request.formData();
+  const postData = Object.fromEntries(formData);
+  sendDataToApi(postData);
+  return redirect('/contact');
 }
 
 export default ContactPage;

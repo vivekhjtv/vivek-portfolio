@@ -10,9 +10,7 @@ function AboutMe() {
               <img src="/profile_pic Large.png" alt="" className="img-fluid" />
             </div>
             <div className="col-md-6">
-              <h2 className="title">
-                <h1 href="#">Why Hire Me?</h1>
-              </h2>
+              <h2 className="title">Why Hire Me?</h2>
 
               <p className="hire-para">
                 Post Grad : Information Technology Solutions

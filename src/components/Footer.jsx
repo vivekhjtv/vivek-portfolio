@@ -1,4 +1,6 @@
 import React from 'react';
+import { Form, redirect } from 'react-router-dom';
+import { sendConnectionDataToApi } from '../api';
 
 function Footer() {
   return (
@@ -79,10 +81,10 @@ function Footer() {
                   Let's collaborate and build exceptional user experiences! 🌐
                   🚀
                 </p>
-                <form>
+                <Form method="POST">
                   <input type="email" name="email" placeholder="Email" />
                   <input type="submit" value="Let's Connect" />
-                </form>
+                </Form>
               </div>
             </div>
           </div>
@@ -99,5 +101,11 @@ function Footer() {
     </div>
   );
 }
-
+export async function connectionInfo(data) {
+  const formData = await data.request.formData();
+  const postData = Object.fromEntries(formData);
+  sendConnectionDataToApi(postData);
+  console.log(postData);
+  return redirect('/project');
+}
 export default Footer;
