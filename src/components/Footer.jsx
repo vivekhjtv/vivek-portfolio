@@ -33,7 +33,7 @@ function Footer() {
                 </p>
 
                 <div className="social-links">
-                  <a
+                  {/* <a
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -46,13 +46,21 @@ function Footer() {
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-facebook"></i>
-                  </a>
+                  </a> */}
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/vivekhjtv/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/vivekhjtv"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
                   </a>
                   <a
                     href="https://www.instagram.com/"
@@ -60,13 +68,6 @@ function Footer() {
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-instagram"></i>
-                  </a>
-                  <a
-                    href="https://www.youtube.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-youtube"></i>
                   </a>
                 </div>
               </div>

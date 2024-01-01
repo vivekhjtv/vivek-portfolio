@@ -49,7 +49,7 @@ function ContactPage() {
           </div>
 
           <div className="row">
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <div className="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5764.297552950904!2d-79.60409089999999!3d43.749007200000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1703713462159!5m2!1sen!2sca"
@@ -61,8 +61,8 @@ function ContactPage() {
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
-            </div>
-            <div className="col-md-6">
+            </div> */}
+            <div className="col-md-12">
               <div className="form">
                 <Form method="POST" id="myForm" className="contactForm">
                   <div className="form-row row">
@@ -72,7 +72,7 @@ function ContactPage() {
                         id="name"
                         name="fullName"
                         className="form-control form_style"
-                        placeholder="Your Name"
+                        placeholder="John Wick"
                       />
                     </div>
                     <div className="form-group col-md-6">

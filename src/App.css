@@ -178,6 +178,8 @@ h6 {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  border: 0px;
+  border-radius: 50px;
 }
 
 .home .btn-get-started:hover {
@@ -697,9 +699,10 @@ h6 {
 }
 
 .contact .form {
-  background: #f2f2f2;
   padding: 30px;
   color: #353535;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .contact .form:hover {
@@ -709,9 +712,11 @@ h6 {
 .contact .form input,
 .contact .form textarea {
   padding: 10px 14px;
-  border-radius: 0;
+  border-radius: 26px;
   box-shadow: none;
   font-size: 15px;
+  background-color: #1dbf73;
+  border: 0px;
 }
 
 .contact .form input:focus,
@@ -726,6 +731,7 @@ h6 {
   color: #ffffff;
   transition: 0.4s;
   cursor: pointer;
+  border-radius: 27px;
 }
 
 .contact .form button[type='submit']:hover {
