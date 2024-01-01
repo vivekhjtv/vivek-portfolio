@@ -1,6 +1,12 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Typed from 'typed.js';
+import DownloadButton from '../store/Action';
+
 function Home() {
+  const pdfUrl = 'Vivek_Jethva_Technical_Resume.pdf';
+  const fileName = 'Vivek_Jethva_Technical_Resume.pdf';
+
   useEffect(() => {
     const options = {
       strings: [' Web Developer', ' Post Grad Student'],
@@ -33,12 +39,14 @@ function Home() {
                 I'm Post Grad Student At Humber College In Canada, A Web
                 Developer & Learning New Concept Of Web Development.
               </p>
-              <a
-                href="Vivek Jethva Technical Resume.pdf"
+              {/* <Link
+                style={{ textDecoration: 'none' }}
+                to="Vivek Jethva Technical Resume.pdf"
                 className="btn-get-started tracking-in-expand vibrate-1"
               >
                 Resume
-              </a>
+              </Link> */}
+              <DownloadButton pdfUrl={pdfUrl} fileName={fileName} />
             </div>
           </div>
         </div>
