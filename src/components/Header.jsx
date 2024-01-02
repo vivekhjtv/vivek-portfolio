@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <header className="header " id="myHeader">
-        <div className="header-container">
+        <div className="header-container text-focus-in">
           <nav id="nav-menu-container row">
             <div className="logo col-lg-6 col-sm-12">
               <h1 className="bounce-in-top brand-title">vivek.io</h1>

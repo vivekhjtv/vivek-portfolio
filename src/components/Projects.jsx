@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Project from './Project';
 
+import FilterCard from './FilterCard';
+
 function Projects() {
-  const cardsInfo = [
+  const Info = [
     {
       card_title: 'My Portfolio Site',
       card_subTitle: 'HTML, CSS, Bootstrap & JavaScript',
@@ -14,6 +16,7 @@ function Projects() {
         opportunities, particularly those involving challenging or
         extensive projects.`,
       card_image: 'portfolio.png',
+      category: 'html/css',
     },
     {
       card_title: 'La Pinoz Pizza',
@@ -26,6 +29,7 @@ function Projects() {
         opportunities, particularly those involving challenging or
         extensive projects.`,
       card_image: 'Lapino.png',
+      category: 'react',
     },
     {
       card_title: 'One Plus',
@@ -38,6 +42,7 @@ function Projects() {
         opportunities, particularly those involving challenging or
         extensive projects.`,
       card_image: 'oneplus.png',
+      category: 'bootstrap',
     },
     {
       card_title: 'Todo App',
@@ -50,20 +55,32 @@ function Projects() {
         opportunities, particularly those involving challenging or
         extensive projects.`,
       card_image: 'Lapino.png',
+      category: 'react',
     },
   ];
+  const [cardsInfo, setCardsInfo] = useState(Info);
 
+  const filterItem = (item) => {
+    if (item === 'all') {
+      setCardsInfo(Info);
+    } else {
+      const updatedItem = Info.filter((curItem) => curItem.category === item);
+      setCardsInfo(updatedItem);
+    }
+  };
   return (
     <div>
       <div className="portfolio">
         <div className="container">
           <header className="section-header text-focus-in">
             <h3 className="section-title">My Project</h3>
-            <p>
+            <p style={{ paddingBottom: 0 }}>
               I'm Post Grad Student At Humber College In Canada, A Web Developer
               & Learning New Concepts Of Web Development.
             </p>
           </header>
+
+          <FilterCard filterItem={filterItem} />
 
           <div className="row card_row">
             {cardsInfo.map((card) => (

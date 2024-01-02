@@ -661,6 +661,7 @@ h6 {
 .form_style {
   margin-bottom: 10px;
 }
+
 .contact .contact-info address,
 .contact .contact-info p {
   margin-bottom: 0;
@@ -688,7 +689,7 @@ h6 {
   background: #ffffff;
 }
 
-.contact .map:hover {
+/* .contact .map:hover {
   box-shadow: 0 0 10px #cccccc;
 }
 
@@ -696,7 +697,7 @@ h6 {
   width: 100%;
   height: 357px;
   margin-bottom: -7px;
-}
+} */
 
 .contact .form {
   padding: 30px;
@@ -706,7 +707,7 @@ h6 {
 }
 
 .contact .form:hover {
-  box-shadow: 0 0 10px #dddddd;
+  box-shadow: 0 0 10px #1dbf73;
 }
 
 .contact .form input,
@@ -715,10 +716,13 @@ h6 {
   border-radius: 26px;
   box-shadow: none;
   font-size: 15px;
-  background-color: #1dbf73;
-  border: 0px;
+  background-color: #000000;
+  border: 1px solid #1dbf73;
+  color: white !important;
 }
-
+.contact .form-control::placeholder {
+  color: white; /* Set the desired color */
+}
 .contact .form input:focus,
 .contact .form textarea:focus {
   border-color: #1dbf73;
@@ -767,6 +771,25 @@ h6 {
   color: #ffffff;
 }
 
+.filter_outer {
+  margin: 0px 0px 20px;
+}
+.btn-filter {
+  margin: 10px;
+  border: 1px solid #1dbf73 !important;
+  color: #1dbf73;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: black;
+}
+.btn-filter:hover {
+  margin: 10px;
+  border: 1px solid #ffffff !important;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: black;
+}
 /* ----------------- Footer Style ------------------ */
 .footer {
   position: relative;
