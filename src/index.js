@@ -20,6 +20,7 @@ const router = createBrowserRouter([
       {
         path: '/project',
         element: <ProjectPage />,
+        action: contactInfo,
       },
       {
         path: '/about',
