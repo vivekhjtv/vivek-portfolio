@@ -1,9 +1,6 @@
 /* ------------------ General CSS ------------------ */
-/* body {
-  color: #656565;
-  font-family: 'Montserrat', sans-serif;
-  background: #ffffff;
-} */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
 html {
   scroll-behavior: smooth;
 }
@@ -661,7 +658,9 @@ h6 {
 .form_style {
   margin-bottom: 10px;
 }
-
+.contact .contact-info span {
+  color: #adadad;
+}
 .contact .contact-info address,
 .contact .contact-info p {
   margin-bottom: 0;
@@ -930,6 +929,7 @@ h6 {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
+  color: #656565;
 }
 
 /* --------------------- Media query ---------------- */

@@ -7,7 +7,11 @@ function AboutMe() {
         <div className="container">
           <div className="row align-items-center about-row text-focus-in">
             <div className="col-md-6">
-              <img src="/profile_pic Large.png" alt="" className="img-fluid" />
+              <img
+                src="/profile_pic Large.png"
+                alt=""
+                className="img-thumbnail"
+              />
             </div>
             <div className="col-md-6">
               <h2 className="title">Why Hire Me?</h2>

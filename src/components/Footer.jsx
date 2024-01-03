@@ -102,11 +102,5 @@ function Footer() {
     </div>
   );
 }
-export async function connectionInfo(data) {
-  const formData = await data.request.formData();
-  const postData = Object.fromEntries(formData);
-  sendConnectionDataToApi(postData);
-  console.log(postData);
-  return redirect('/project');
-}
+
 export default Footer;

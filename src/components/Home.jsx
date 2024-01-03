@@ -38,13 +38,7 @@ function Home() {
                 I'm Post Grad Student At Humber College In Canada, A Web
                 Developer & Learning New Concept Of Web Development.
               </p>
-              {/* <Link
-                style={{ textDecoration: 'none' }}
-                to="Vivek Jethva Technical Resume.pdf"
-                className="btn-get-started tracking-in-expand vibrate-1"
-              >
-                Resume
-              </Link> */}
+
               <DownloadButton pdfUrl={pdfUrl} fileName={fileName} />
             </div>
           </div>
