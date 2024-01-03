@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div>
-      <header className="header " id="myHeader">
+      <header className="header" id="myHeader">
         <div className="header-container text-focus-in">
           <nav id="nav-menu-container row">
             <div className="logo col-lg-12 col-sm-12">
