@@ -8,7 +8,7 @@ function About() {
     <div>
       <InfoTitle />
       <AboutMe />
-      <Skills/>
+      <Skills />
     </div>
   );
 }
