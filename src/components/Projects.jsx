@@ -86,7 +86,7 @@ function Projects() {
             {cardsInfo.map((card) => (
               <div
                 key={card.card_title}
-                className="col-sm-4 card-column text-focus-in"
+                className="col-lg-3 col-md-4 col-sm-6 card-column text-focus-in"
               >
                 <Project card={card} />
               </div>

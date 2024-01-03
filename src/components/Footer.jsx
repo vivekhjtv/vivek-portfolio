@@ -1,6 +1,5 @@
 import React from 'react';
-import { Form, redirect } from 'react-router-dom';
-import { sendConnectionDataToApi } from '../api';
+import { Form } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -33,20 +32,6 @@ function Footer() {
                 </p>
 
                 <div className="social-links">
-                  {/* <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook"></i>
-                  </a> */}
                   <a
                     href="https://www.linkedin.com/in/vivekhjtv/"
                     target="_blank"
