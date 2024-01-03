@@ -29,7 +29,7 @@ function Projects() {
         opportunities, particularly those involving challenging or
         extensive projects.`,
       card_image: 'Lapino.png',
-      category: 'react',
+      category: 'html/css',
     },
     {
       card_title: 'One Plus',
@@ -46,7 +46,17 @@ function Projects() {
     },
     {
       card_title: 'Todo App',
-      card_subTitle: 'HTML, CSS, Bootstrap & JavaScript',
+      card_subTitle: 'HTML, CSS, Bootstrap, JavaScript and React',
+      card_paragraph: `A portfolio website is a unique way to showcase your work
+        and let others know about yourself. It's like an evergreen
+        platform for your projects, case studies, and information
+        about you.`,
+      card_image: 'TodoApp.png',
+      category: 'react',
+    },
+    {
+      card_title: 'Calculator App',
+      card_subTitle: 'HTML, CSS, Bootstrap, JavaScript and React',
       card_paragraph: `A portfolio website is a unique way to showcase your work
         and let others know about yourself. It's like an evergreen
         platform for your projects, case studies, and information
@@ -54,7 +64,39 @@ function Projects() {
         and improve my knowledge and also I am open to freelance
         opportunities, particularly those involving challenging or
         extensive projects.`,
-      card_image: 'Lapino.png',
+      card_image: 'Calculator.png',
+      category: 'react',
+    },
+    {
+      card_title: 'Password Generator App',
+      card_subTitle: 'HTML, CSS, Bootstrap, JavaScript and React',
+      card_paragraph: `A portfolio website is a unique way to showcase your work
+        and let others know about yourself. It's like an evergreen
+        platform for your projects, case studies, and information
+        about you.`,
+      card_image: 'PasswordGen.png',
+      category: 'react',
+    },
+    {
+      card_title: 'Global Currency Converter App',
+      card_subTitle: 'HTML, CSS, Bootstrap, JavaScript and React',
+      card_paragraph: `A portfolio website is a unique way to showcase your work
+        and let others know about yourself. It's like an evergreen
+        platform for your projects, case studies, and information
+        about you.`,
+      card_image: 'CurrencyConverter.png',
+      category: 'react',
+    },
+    {
+      card_title: 'Blog Post App',
+      card_subTitle: 'HTML, CSS, Bootstrap, JavaScript and React',
+      card_paragraph: `A portfolio website is a unique way to showcase your work
+        and let others know about yourself. It's like an evergreen
+        platform for your projects, case studies, and information
+        about you. It's like an evergreen
+        platform for your projects, case studies, and information
+        about you.`,
+      card_image: 'Blog.png',
       category: 'react',
     },
   ];
