@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -20,11 +20,7 @@ function Footer() {
               <div className="col-lg-4 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
-                  Etobicoke,
-                  <br />
-                  Ontario,
-                  <br />
-                  Canada. <br />
+                  Etobicoke, Ontario, Canada. <br />
                   <strong>Phone:</strong> +1 437-599-3574
                   <br />
                   <strong>Email:</strong> vivekhjtv18@example.com
@@ -67,10 +63,11 @@ function Footer() {
                   Let's collaborate and build exceptional user experiences! 🌐
                   🚀
                 </p>
-                <Form method="POST">
-                  <input type="email" name="email" placeholder="Email" />
-                  <input type="submit" value="Let's Connect" />
-                </Form>
+
+                <Link to="/contact" className="connect-button">
+                  {' '}
+                  Let's Connect
+                </Link>
               </div>
             </div>
           </div>

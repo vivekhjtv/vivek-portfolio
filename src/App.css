@@ -246,6 +246,7 @@ h6 {
 .skills_section {
   padding-top: 110px;
   padding-bottom: 60px;
+  width: 70%;
 }
 .skill-main {
   width: 100%;
@@ -550,7 +551,7 @@ h6 {
   border: 1px solid #1dbf73 !important;
   color: #1dbf73;
   border-radius: 10px;
-  padding: 8px 20px;
+  padding: 4px 16px;
   background-color: black;
 }
 .btn-filter:hover {
@@ -579,6 +580,23 @@ h6 {
 .footer .footer-top .footer-contact,
 .footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+}
+.connect-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black; /* You can choose your preferred color */
+  color: #ffffff; /* Text color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover for a nice effect */
+.connect-button:hover {
+  background-color: #1c1c1c; /* Darker color on hover */
+  color: #1dbf73;
 }
 .footer .footer-top .footer-info h3 {
   font-size: 34px;
@@ -704,6 +722,13 @@ h6 {
   }
   .skills_section {
     padding-top: 0px;
+    width: 100%;
+  }
+  .about {
+    padding-top: 24px;
+  }
+  .section-header {
+    padding: 8px;
   }
 }
 

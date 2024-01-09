@@ -3,7 +3,7 @@ import React from 'react';
 const FilterCard = ({ filterItem }) => {
   return (
     <div className="container text-focus-in filter_outer">
-      <div className="Filter_outer d-flex justify-content-center">
+      <div className="Filter_outer d-flex flex-wrap justify-content-center">
         <button
           className="btn-filter"
           type="button"
