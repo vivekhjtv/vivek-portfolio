@@ -8,7 +8,6 @@ import ProjectPage from './components/ProjectPage';
 import About from './components/About';
 import ContactPage, { contactInfo } from './components/ContactPage';
 import Home from './components/Home';
-import { connectionInfo } from './components/Footer';
 
 const router = createBrowserRouter([
   {
