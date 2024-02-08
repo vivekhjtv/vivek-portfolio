@@ -17,6 +17,7 @@ function Projects() {
         extensive projects.`,
       card_image: 'portfolio.png',
       category: 'html/css',
+      link: 'https://github.com/vivekhjtv/vivek-portfolio',
     },
     {
       card_title: 'La Pinoz Pizza',
@@ -30,6 +31,7 @@ function Projects() {
         extensive projects.`,
       card_image: 'Lapino.png',
       category: 'html/css',
+      link: 'https://github.com/vivekhjtv/vivek-portfolio',
     },
     {
       card_title: 'One Plus',
@@ -43,6 +45,7 @@ function Projects() {
         extensive projects.`,
       card_image: 'oneplus.png',
       category: 'bootstrap',
+      link: 'https://github.com/vivekhjtv/vivek-portfolio',
     },
     {
       card_title: 'Todo App',
@@ -53,6 +56,7 @@ function Projects() {
         about you.`,
       card_image: 'TodoApp.png',
       category: 'react',
+      link: 'https://github.com/vivekhjtv/v_react/tree/main/07reactTodoContext',
     },
     {
       card_title: 'Calculator App',
@@ -66,6 +70,7 @@ function Projects() {
         extensive projects.`,
       card_image: 'Calculator.png',
       category: 'react',
+      link: 'https://github.com/vivekhjtv/v_react/tree/main/react-calculator',
     },
     {
       card_title: 'Password Generator App',
@@ -76,6 +81,7 @@ function Projects() {
         about you.`,
       card_image: 'PasswordGen.png',
       category: 'react',
+      link: 'https://github.com/vivekhjtv/v_react/tree/main/04PasswordGenerator',
     },
     {
       card_title: 'Global Currency Converter App',
@@ -86,6 +92,7 @@ function Projects() {
         about you.`,
       card_image: 'CurrencyConverter.png',
       category: 'react',
+      link: 'https://github.com/vivekhjtv/v_react/tree/main/05currencyChangeApp',
     },
     {
       card_title: 'Blog Post App',
@@ -98,6 +105,7 @@ function Projects() {
         about you.`,
       card_image: 'Blog.png',
       category: 'react',
+      link: 'https://github.com/vivekhjtv/v_react/tree/main/13react-social-media-app',
     },
   ];
   const [cardsInfo, setCardsInfo] = useState(Info);
