@@ -6,7 +6,7 @@ function Project({ card }) {
     <div>
       <Link to={card.link} target="_blank" style={{ textDecoration: 'none' }}>
         <div
-          className="card"
+          className="card "
           style={{
             marginBottom: 24,
             height: 512,

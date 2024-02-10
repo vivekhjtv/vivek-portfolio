@@ -2,7 +2,7 @@ export const sendDataToApi = async (data) => {
   try {
     const jsonData = JSON.stringify(data);
 
-    const response = await fetch('http://localhost:7000/users', {
+    const response = await fetch('http://localhost:8080/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
