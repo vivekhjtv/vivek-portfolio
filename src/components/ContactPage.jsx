@@ -11,7 +11,7 @@ function ContactPage() {
           <div className="section-header">
             <h3 className="section-title">Contact Me</h3>
             <p>
-              Here is My Contact Section to Increase Interaction with Me. I am
+              Here is my contact section to increase interaction with me. I am
               open to freelance opportunities, particularly those involving
               challenging or extensive projects. However, if you have any other
               inquiries or requests, please feel free to submit them using the
