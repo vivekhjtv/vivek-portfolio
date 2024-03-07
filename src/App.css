@@ -226,6 +226,20 @@ h6 {
   padding-bottom: 30px;
   color: #bdbdbd;
 }
+/* .exp_div {
+  justify-content: center;
+} */
+.company_name {
+  color: white !important;
+  text-align: center;
+}
+.exp_para {
+  color: #bdbdbd;
+  width: 650px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
 /* ---------------- About Us Style ----------------- */
 .title {
   color: #1dbf73;

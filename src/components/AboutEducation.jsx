@@ -6,7 +6,7 @@ function AboutEducation() {
       <div className="container">
         <div className="row align-items-center about-row text-focus-in pt-5">
           <div className="col-md-6">
-            <h2 className="title">Education</h2>
+            <h2 className="title">EDUCATION</h2>
             <h4 className="hire-para education_title">
               Post Grad : Information Technology Solutions
             </h4>

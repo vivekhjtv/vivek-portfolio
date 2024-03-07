@@ -17,7 +17,9 @@ function Project({ card }) {
           <div className="card-body">
             <h4>{card.card_title}</h4>
             <p className="portpara">{card.card_subTitle}</p>
-            <p className="portpara">{card.card_paragraph}</p>
+            <p className="portpara">
+              {card.card_paragraph.substring(0, 260)}...
+            </p>
           </div>
         </div>
       </Link>
