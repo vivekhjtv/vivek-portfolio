@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Footer from './Footer';
 import { Form, redirect } from 'react-router-dom';
 import { sendDataToApi } from '../api';
 
 function ContactPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <section className="contact">
@@ -24,7 +27,7 @@ function ContactPage() {
               <div className="contact-address">
                 <i className="fas fa-map-marker-alt"></i>
                 <h3>Address</h3>
-                <address>Mississauga, Ontario, Canada</address>
+                <address>Etobicoke, Ontario, Canada</address>
               </div>
             </div>
 

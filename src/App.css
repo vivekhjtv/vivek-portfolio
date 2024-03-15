@@ -201,6 +201,9 @@ h6 {
   max-width: 700px;
   margin: 0 auto;
 }
+.experience {
+  font-size: 20px !important;
+}
 
 .section-header h3 {
   font-size: 32px;
@@ -226,9 +229,6 @@ h6 {
   padding-bottom: 30px;
   color: #bdbdbd;
 }
-/* .exp_div {
-  justify-content: center;
-} */
 .company_name {
   color: white !important;
   text-align: center;
@@ -250,6 +250,17 @@ h6 {
 .about-section {
   position: relative;
   padding: 130px 0 40px 0;
+  background: #000000;
+}
+
+.about .hire-para {
+  text-align: justify;
+  color: #bdbdbd;
+}
+
+.experience-section {
+  position: relative;
+  padding: 100px 0 40px 0;
   background: #000000;
 }
 

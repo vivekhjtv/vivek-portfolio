@@ -20,10 +20,10 @@ function Footer() {
               <div className="col-lg-4 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
-                  Etobicoke, Ontario, Canada. <br />
+                  <strong>Address:</strong>Etobicoke, Ontario, Canada. <br />
                   <strong>Phone:</strong> +1 437-599-3574
                   <br />
-                  <strong>Email:</strong> vivekhjtv18@example.com
+                  <strong>Email:</strong> vivekhjtv18@gmail.com
                   <br />
                 </p>
 
@@ -42,13 +42,6 @@ function Footer() {
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-github"></i>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-instagram"></i>
                   </a>
                 </div>
               </div>
