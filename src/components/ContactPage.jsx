@@ -109,7 +109,7 @@ function ContactPage() {
 export async function contactInfo(data) {
   const formData = await data.request.formData();
   const postData = Object.fromEntries(formData);
-  // console.log(postData);
+  console.log(postData);
   sendDataToApi(postData);
   return redirect('/contact');
 }
